@@ -100,7 +100,7 @@ public class Updater {
                 .map(new Function<Boolean, Boolean>() {
                     @Override
                     public Boolean apply(Boolean aBoolean) throws Exception {
-                        return launchAPK(context, "com.sensorberg.beacfg.hockey");
+                        return launchAPK(context, BuildConfig.HOCKEY_APP_PACKAGE_NAME);
                     }
                 })
                 // save this install
